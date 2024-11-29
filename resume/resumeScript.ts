@@ -117,6 +117,10 @@ window.addEventListener('load', () => {
     let resAch2 : any = document.getElementById('resumeAch2')
     resAch2.textContent = ach2
 
+    
+    let resAch3 : any = document.getElementById('resumeAch3')
+    resAch2.textContent = ach3
+
     let resProfSummary : any = document.getElementById('resumeProfSummary')
     resProfSummary.textContent = profSummary
 
