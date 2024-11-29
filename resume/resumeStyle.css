@@ -199,6 +199,22 @@ header h1{
         width: 100%;
     }
 
+    header {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        background-color: #90CAF9  ;
+    }
+    
+    header img{
+        width:100px;
+        height: 100px;
+
+    }
+
     .content {
         flex-direction: column;
     }
