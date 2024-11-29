@@ -174,7 +174,31 @@ header h1{
         display: none;
     }
 }
-@media (max-width:786px) {
+@media (max-width:768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content aside,
+    .main {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:480px) {
+
+    body {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        padding: 3%;
+    }
+  
+    body .resume_div{
+        width: 100%;
+    }
+
     .content {
         flex-direction: column;
     }
